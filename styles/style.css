@@ -48,8 +48,8 @@ div.f6dof87.f6dof89 {
   max-width: 100px !important;
   max-height: 100px !important;
   background-color: transparent !important;
-  border: 2px solid #232B55 !important;
-  border-color: #232B55 !important;
+  border: 2px solid #ffffff !important;
+  border-color: #ffffff !important;
   border-width: 2px !important;
   border-style: solid !important;
   box-shadow: none !important;
@@ -435,13 +435,13 @@ img.vfrc-image {
 /* Targets the avatar image within any element having "vfrc-header" in its class */
 div[class*="vfrc-header"] img.vfrc-avatar {
   width: 180.84px !important; /* Calculated to maintain aspect ratio with a 56px height */
-  height: 56px !important;    /* Set to fit the header's height */
+  height: 54px !important;    /* Set to fit the header's height */
   border-radius: 0 !important; /* Ensures the image is rectangular, not circular */
   object-fit: contain !important; /* Ensures the entire image is visible and maintains aspect ratio within the defined dimensions */
   background-color: transparent !important; /* Removes any default background color from other rules */
   background-image: none !important; /* Removes any default background image */
   padding: 0 !important; /* Resets padding */
-  margin: 2px 0 0 -15px !important;  /* Updated: 10px top, 0 right, 0 bottom, -15px left margin */
+  margin: 2px 0 0 -25px !important;  /* Updated: 10px top, 0 right, 0 bottom, -15px left margin */
 }
 
 .vfrc-header + div {
@@ -450,5 +450,5 @@ div[class*="vfrc-header"] img.vfrc-avatar {
 
 .vfrc-header .vfrc-icon {
   color: #232B55 !important;
-  fill: #232B55 !important;
+  fill: #ffffff !important;
 }
