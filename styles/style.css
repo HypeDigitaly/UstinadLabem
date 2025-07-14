@@ -48,8 +48,8 @@ div.f6dof87.f6dof89 {
   max-width: 100px !important;
   max-height: 100px !important;
   background-color: transparent !important;
-  border: 2px solid #ffffff !important;
-  border-color: #ffffff !important;
+  border: 2px solid #232B55 !important;
+  border-color: #232B55 !important;
   border-width: 2px !important;
   border-style: solid !important;
   box-shadow: none !important;
@@ -388,9 +388,9 @@ div._6r9xee3.o231sh1 {
   position: relative !important;
   z-index: 0 !important;
   border-radius: 10px !important;
-  background-color: #232B55 !important;
+  background-color: #ffffff !important;
   color: #232B55 !important;
-  border: 2px solid #232B55 !important;
+  border: 2px solid #ffffff !important;
   opacity: 1 !important;
 
   /* Restore ONLY scale pulse animation */
@@ -441,7 +441,7 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   background-color: transparent !important; /* Removes any default background color from other rules */
   background-image: none !important; /* Removes any default background image */
   padding: 0 !important; /* Resets padding */
-  margin: 2px 0 0 -25px !important;  /* Updated: 10px top, 0 right, 0 bottom, -15px left margin */
+  margin: 2px 0 0 -40px !important;  /* Updated: 10px top, 0 right, 0 bottom, -15px left margin */
 }
 
 .vfrc-header + div {
