@@ -185,23 +185,20 @@ button.vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c
 }
 
 /* ================= BUTTON TEXT REPLACEMENT ================= */
-/* Replace "Open chat agent" with "Zahájit konverzaci" */
+/* Replace "Open chat agent" with "Otevřít chatbot" */
 button[title="Open chat agent"] {
-    font-size: 0px !important; /* Hide original text */
+  color: transparent !important;
+  position: relative !important;
 }
 
-button[title="Open chat agent"]::after {
-    content: "Zahájit konverzaci" !important;
-    font-size: 1rem !important; /* Set a visible font size */
-    color: initial !important; /* Or your desired color */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    display: inline-block;
-    width: auto;
-    height: auto;
-    overflow: visible;
+button[title="Open chat agent"]::before {
+  content: "Otevřít chatbot" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
 }
 
 /* Replace "Close chat agent" with "Zavřít chatbot" */
