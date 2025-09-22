@@ -102,7 +102,7 @@ div.f6dof80:has(img[alt="open chat"]) {
   max-width: 100px !important;
   max-height: 100px !important;
   border-radius: 50% !important;
-  background-color: #ffffff !important;
+  background-color: #232B55 !important;
   border: 2px solid #232B55 !important;
   object-fit: cover !important;
   object-position: center !important;
@@ -115,12 +115,6 @@ div.f6dof80:has(img[alt="open chat"]) {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
 }
 
-/* Add hover effect for the launcher avatar */
-.vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c26d8x0._1q15b0b5:hover img.f6dof8u.f6dof8w.f6dof8h,
-.vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c26d8x0._1q15b0b5:hover img[alt="open chat"] {
-  transform: scale(1.1) !important;
-  box-shadow: 0 0 15px rgba(35, 43, 85, 0.5) !important;
-}
 /* Keyframes for the image glow pulse */
 /* @keyframes pulseImageGlow { ... } */ /* Commented out as animation is removed */
 
@@ -394,7 +388,7 @@ div._6r9xee3.o231sh1 {
   position: relative !important;
   z-index: 0 !important;
   border-radius: 10px !important;
-  background-color: #ffffff !important;
+  background-color: #232B55 !important;
   color: #232B55 !important;
   border: 2px solid #232B55 !important;
   opacity: 1 !important;
