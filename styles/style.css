@@ -95,12 +95,12 @@ div.f6dof80:has(img[alt="open chat"]) {
 /* Target the actual image in closed state */
 .vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c26d8x0._1q15b0b5 img.f6dof8u.f6dof8w.f6dof8h,
 .vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c26d8x0._1q15b0b5 img[alt="open chat"] {
-  width: 64px !important;
-  height: 64px !important;
-  min-width: 64px !important;
-  min-height: 64px !important;
-  max-width: 64px !important;
-  max-height: 64px !important;
+  width: 75px !important;
+  height: 75px !important;
+  min-width: 75px !important;
+  min-height: 75px !important;
+  max-width: 75px !important;
+  max-height: 75px !important;
   border-radius: 50% !important;
   background-color: #232B55 !important;
   border: 2px solid #232B55 !important;
